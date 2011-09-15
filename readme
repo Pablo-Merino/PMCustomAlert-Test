@@ -1,0 +1,6 @@
+A subclass of UIAlertView where you can set your own size and you'll get an empty UIAlertView for adding your own custom UIViews. Usage:
+
+    alert = [[PMCustomAlert alloc] initPopupWithWidth:320 andHeight:240];
+    [alert show];
+
+You can add your own UIViews to it using addSubview:
