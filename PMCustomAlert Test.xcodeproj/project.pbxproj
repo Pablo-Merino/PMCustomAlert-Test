@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6EB0A686142275EB00C1F301 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EB0A685142275EB00C1F301 /* UIKit.framework */; };
+		6EB0A688142275EB00C1F301 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EB0A687142275EB00C1F301 /* Foundation.framework */; };
+		6EB0A68A142275EB00C1F301 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EB0A689142275EB00C1F301 /* CoreGraphics.framework */; };
+		6EB0A690142275EB00C1F301 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6EB0A68E142275EB00C1F301 /* InfoPlist.strings */; };
+		6EB0A692142275EB00C1F301 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB0A691142275EB00C1F301 /* main.m */; };
+		6EB0A696142275EB00C1F301 /* PMCustomAlert_TestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB0A695142275EB00C1F301 /* PMCustomAlert_TestAppDelegate.m */; };
+		6EB0A699142275EB00C1F301 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EB0A697142275EB00C1F301 /* MainWindow.xib */; };
+		6EB0A69C142275EB00C1F301 /* PMCustomAlert_TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB0A69B142275EB00C1F301 /* PMCustomAlert_TestViewController.m */; };
+		6EB0A69F142275EB00C1F301 /* PMCustomAlert_TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EB0A69D142275EB00C1F301 /* PMCustomAlert_TestViewController.xib */; };
+		6EB0A6A7142275F300C1F301 /* PMCustomAlert.h in Sources */ = {isa = PBXBuildFile; fileRef = 6EB0A6A5142275F300C1F301 /* PMCustomAlert.h */; };
+		6EB0A6A8142275F300C1F301 /* PMCustomAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB0A6A6142275F300C1F301 /* PMCustomAlert.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6EB0A681142275EB00C1F301 /* PMCustomAlert Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PMCustomAlert Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EB0A685142275EB00C1F301 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6EB0A687142275EB00C1F301 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6EB0A689142275EB00C1F301 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6EB0A68D142275EB00C1F301 /* PMCustomAlert Test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PMCustomAlert Test-Info.plist"; sourceTree = "<group>"; };
+		6EB0A68F142275EB00C1F301 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6EB0A691142275EB00C1F301 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6EB0A693142275EB00C1F301 /* PMCustomAlert Test-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PMCustomAlert Test-Prefix.pch"; sourceTree = "<group>"; };
+		6EB0A694142275EB00C1F301 /* PMCustomAlert_TestAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.objj.h; path = PMCustomAlert_TestAppDelegate.h; sourceTree = "<group>"; };
+		6EB0A695142275EB00C1F301 /* PMCustomAlert_TestAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PMCustomAlert_TestAppDelegate.m; sourceTree = "<group>"; };
+		6EB0A698142275EB00C1F301 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		6EB0A69A142275EB00C1F301 /* PMCustomAlert_TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.objj.h; path = PMCustomAlert_TestViewController.h; sourceTree = "<group>"; };
+		6EB0A69B142275EB00C1F301 /* PMCustomAlert_TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PMCustomAlert_TestViewController.m; sourceTree = "<group>"; };
+		6EB0A69E142275EB00C1F301 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PMCustomAlert_TestViewController.xib; sourceTree = "<group>"; };
+		6EB0A6A5142275F300C1F301 /* PMCustomAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.objj.h; path = PMCustomAlert.h; sourceTree = "<group>"; };
+		6EB0A6A6142275F300C1F301 /* PMCustomAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMCustomAlert.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6EB0A67E142275EB00C1F301 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EB0A686142275EB00C1F301 /* UIKit.framework in Frameworks */,
+				6EB0A688142275EB00C1F301 /* Foundation.framework in Frameworks */,
+				6EB0A68A142275EB00C1F301 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6EB0A676142275EB00C1F301 = {
+			isa = PBXGroup;
+			children = (
+				6EB0A68B142275EB00C1F301 /* PMCustomAlert Test */,
+				6EB0A684142275EB00C1F301 /* Frameworks */,
+				6EB0A682142275EB00C1F301 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6EB0A682142275EB00C1F301 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6EB0A681142275EB00C1F301 /* PMCustomAlert Test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6EB0A684142275EB00C1F301 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6EB0A685142275EB00C1F301 /* UIKit.framework */,
+				6EB0A687142275EB00C1F301 /* Foundation.framework */,
+				6EB0A689142275EB00C1F301 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6EB0A68B142275EB00C1F301 /* PMCustomAlert Test */ = {
+			isa = PBXGroup;
+			children = (
+				6EB0A6A5142275F300C1F301 /* PMCustomAlert.h */,
+				6EB0A6A6142275F300C1F301 /* PMCustomAlert.m */,
+				6EB0A694142275EB00C1F301 /* PMCustomAlert_TestAppDelegate.h */,
+				6EB0A695142275EB00C1F301 /* PMCustomAlert_TestAppDelegate.m */,
+				6EB0A697142275EB00C1F301 /* MainWindow.xib */,
+				6EB0A69A142275EB00C1F301 /* PMCustomAlert_TestViewController.h */,
+				6EB0A69B142275EB00C1F301 /* PMCustomAlert_TestViewController.m */,
+				6EB0A69D142275EB00C1F301 /* PMCustomAlert_TestViewController.xib */,
+				6EB0A68C142275EB00C1F301 /* Supporting Files */,
+			);
+			path = "PMCustomAlert Test";
+			sourceTree = "<group>";
+		};
+		6EB0A68C142275EB00C1F301 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6EB0A68D142275EB00C1F301 /* PMCustomAlert Test-Info.plist */,
+				6EB0A68E142275EB00C1F301 /* InfoPlist.strings */,
+				6EB0A691142275EB00C1F301 /* main.m */,
+				6EB0A693142275EB00C1F301 /* PMCustomAlert Test-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6EB0A680142275EB00C1F301 /* PMCustomAlert Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EB0A6A2142275EB00C1F301 /* Build configuration list for PBXNativeTarget "PMCustomAlert Test" */;
+			buildPhases = (
+				6EB0A67D142275EB00C1F301 /* Sources */,
+				6EB0A67E142275EB00C1F301 /* Frameworks */,
+				6EB0A67F142275EB00C1F301 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PMCustomAlert Test";
+			productName = "PMCustomAlert Test";
+			productReference = 6EB0A681142275EB00C1F301 /* PMCustomAlert Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6EB0A678142275EB00C1F301 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 6EB0A67B142275EB00C1F301 /* Build configuration list for PBXProject "PMCustomAlert Test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6EB0A676142275EB00C1F301;
+			productRefGroup = 6EB0A682142275EB00C1F301 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6EB0A680142275EB00C1F301 /* PMCustomAlert Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6EB0A67F142275EB00C1F301 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EB0A690142275EB00C1F301 /* InfoPlist.strings in Resources */,
+				6EB0A699142275EB00C1F301 /* MainWindow.xib in Resources */,
+				6EB0A69F142275EB00C1F301 /* PMCustomAlert_TestViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6EB0A67D142275EB00C1F301 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EB0A692142275EB00C1F301 /* main.m in Sources */,
+				6EB0A696142275EB00C1F301 /* PMCustomAlert_TestAppDelegate.m in Sources */,
+				6EB0A69C142275EB00C1F301 /* PMCustomAlert_TestViewController.m in Sources */,
+				6EB0A6A7142275F300C1F301 /* PMCustomAlert.h in Sources */,
+				6EB0A6A8142275F300C1F301 /* PMCustomAlert.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6EB0A68E142275EB00C1F301 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EB0A68F142275EB00C1F301 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6EB0A697142275EB00C1F301 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EB0A698142275EB00C1F301 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		6EB0A69D142275EB00C1F301 /* PMCustomAlert_TestViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EB0A69E142275EB00C1F301 /* en */,
+			);
+			name = PMCustomAlert_TestViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6EB0A6A0142275EB00C1F301 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6EB0A6A1142275EB00C1F301 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6EB0A6A3142275EB00C1F301 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PMCustomAlert Test/PMCustomAlert Test-Prefix.pch";
+				INFOPLIST_FILE = "PMCustomAlert Test/PMCustomAlert Test-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6EB0A6A4142275EB00C1F301 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PMCustomAlert Test/PMCustomAlert Test-Prefix.pch";
+				INFOPLIST_FILE = "PMCustomAlert Test/PMCustomAlert Test-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6EB0A67B142275EB00C1F301 /* Build configuration list for PBXProject "PMCustomAlert Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EB0A6A0142275EB00C1F301 /* Debug */,
+				6EB0A6A1142275EB00C1F301 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EB0A6A2142275EB00C1F301 /* Build configuration list for PBXNativeTarget "PMCustomAlert Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EB0A6A3142275EB00C1F301 /* Debug */,
+				6EB0A6A4142275EB00C1F301 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6EB0A678142275EB00C1F301 /* Project object */;
+}
