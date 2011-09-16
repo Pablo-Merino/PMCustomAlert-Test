@@ -12,6 +12,6 @@
 - (void) show {
 	[super show];
 	
-	self.bounds = CGRectMake(0, 0, heightSize, widthSize);
+	self.bounds = CGRectMake(0, 0, widthSize, heightSize);
 }
 @end
